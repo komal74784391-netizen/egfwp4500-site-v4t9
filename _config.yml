@@ -1,0 +1,15 @@
+title: "James Thomas - Computational Hydrology"
+description: "Personal academic website of James Thomas, Larkspur Computational Hydrology Lab."
+baseurl: ""
+url: "https://jthomas.example.org"
+markdown: kramdown
+collections:
+  publications:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: archive-single
